@@ -11,6 +11,7 @@ __Setup__
 __1. Clone the repository__
    ```
    git clone https://github.com/aswanthsanthosh/Scrapy_Project.git
+   cd Scrapy_Project/
    cd django_scrappy/
    ```
 __2. Create a Virtual Environment__
