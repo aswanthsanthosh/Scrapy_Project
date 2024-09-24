@@ -46,6 +46,8 @@ __Usage :__
   1. CLICK HERE TO SCRAP
   2. VIEW SCRAPPED DATA
  
+     /recordings/1.png
+ 
   __- CLICK HERE TO SCRAP__
      - this will trigger the celery and spider for web scrapping for NetMall(https://netmall.hardoff.co.jp/)
   __- VIEW SCRAPPED DATA__
