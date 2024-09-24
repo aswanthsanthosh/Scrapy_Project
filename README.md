@@ -56,4 +56,6 @@ __- VIEW SCRAPPED DATA__
      - Scrapped data will be saving as django model object; this can be accessed from clicking VIEW SCRAPPED DATA button
      - also there is pagination implemented for getting data from models
      - a button for __CLEAR DB__ is given : this is to clear the database with scrapped data - trigger this after whole celery task take place
+
+screenshots and recordings are in 'recording' folder in main branch
    
