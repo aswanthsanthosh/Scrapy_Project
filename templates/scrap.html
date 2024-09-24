@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Button Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>SCRAPY - DJANGO PROJECT </h1>
+    <form method="post" action="{% url 'scrape' %}">
+        {% csrf_token %}
+        <button class="btn btn-danger" type="submit" name="scrape_button">CLICK HERE TO SCRAP</button>    
+    </form>
+
+    <form method="post" action="{% url 'products' %}">
+        {% csrf_token %}
+        <button class="btn btn-primary" type="submit" name="products_view_button">VIEW SCRAPPED DATA</button>    
+    </form>
+
+</body>
+</html>
