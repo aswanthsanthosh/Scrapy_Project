@@ -57,5 +57,5 @@ __- VIEW SCRAPPED DATA__
      - also there is pagination implemented for getting data from models
      - a button for __CLEAR DB__ is given : this is to clear the database with scrapped data - trigger this after whole celery task take place
 
-screenshots and recordings are in 'recording' folder in main branch
+screenshots and recordings are in 'recordings' folder in main branch
    
