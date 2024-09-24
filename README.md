@@ -48,10 +48,11 @@ __Usage :__
 
 reference image : - recordings/1.png
  
-1.__- CLICK HERE TO SCRAP__
+__- CLICK HERE TO SCRAP__
      - this will trigger the celery and spider for web scrapping for NetMall(https://netmall.hardoff.co.jp/)
-     reference image : - recordings/1.png
-2. __- VIEW SCRAPPED DATA__
+     
+
+__- VIEW SCRAPPED DATA__
      - Scrapped data will be saving as django model object; this can be accessed from clicking VIEW SCRAPPED DATA button
      - also there is pagination implemented for getting data from models
      - a button for __CLEAR DB__ is given : this is to clear the database with scrapped data - trigger this after whole celery task take place
