@@ -22,7 +22,7 @@ __2. Create a Virtual Environment__
 __3. Install Dependencies__
    Install the project dependencies listed in the requirements.txt file.
    ```
-   pip install -r requirements.txt
+   pip install -r requirement.txt
    ```
 __4. Apply Migrations__
    The default database will be sqlite. Unless you want to configure db to some other database, you can directly run the migrate command
