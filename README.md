@@ -12,7 +12,6 @@ __1. Clone the repository__
    ```
    git clone https://github.com/aswanthsanthosh/Scrapy_Project.git
    cd Scrapy_Project/
-   cd django_scrappy/
    ```
 __2. Create a Virtual Environment__
    It's recommended to create a virtual environment to keep your dependencies isolated.
