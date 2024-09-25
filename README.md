@@ -15,12 +15,13 @@ __1. Clone the repository__
    ```
 __2. Create a Virtual Environment__
    It's recommended to create a virtual environment to keep your dependencies isolated.
-   for linux : 
+   
+for linux : 
    ```
    python -m venv env
    source env/bin/activate
    ```
-   for windows :
+for windows :
    ```
    python -m venv env
    env\Scripts\activate
