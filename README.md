@@ -15,9 +15,15 @@ __1. Clone the repository__
    ```
 __2. Create a Virtual Environment__
    It's recommended to create a virtual environment to keep your dependencies isolated.
+   for linux : 
    ```
    python -m venv env
    source env/bin/activate
+   ```
+   for windows :
+   ```
+   python -m venv env
+   env\Scripts\activate
    ```
 __3. Install Dependencies__
    Install the project dependencies listed in the requirements.txt file.
